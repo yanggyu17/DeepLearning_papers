@@ -1,4 +1,5 @@
 # AlexNet
+저자 : Alex Krizhevsky(University of Toronto), Ilya Sutskever(University of Toronto), Geoffrey E. Hinton(University of Toronto)
 논문 [[pdf]](http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
 
 ## Abstract
