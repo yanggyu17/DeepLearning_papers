@@ -16,10 +16,11 @@
 ## Model
 
 ## Datasets and Experimental Setup
-- CNN-rand: word2vec을 사용하지 않고 모든 단어를 random 초기화
-- CNN-static: word2vec으로 pre-train, 모든 word vector를 static하게 유지.(해당 weight에 학습을 진행하지 않음)
-- CNN-non-static: word2vec으로 pre-train, word vector를 학습하며 fine-tune.(해당 weight에 학습을 진행합니다.)
-- CNN-multichannel: static 채널과 non-static 채널 모두 사용(static 학습 미허용, non-static 학습 허용)
+- **CNN-rand** : word2vec을 사용하지 않고 모든 단어를 random 초기화
+- **CNN-static** : word2vec으로 pre-train, 모든 word vector를 static하게 유지.(해당 weight에 학습을 진행하지 않음)
+- **CNN-non-static** : word2vec으로 pre-train, word vector를 학습하며 fine-tune.(해당 weight에 학습을 진행합니다.)
+- **CNN-multichannel** : static 채널과 non-static 채널 모두 사용(static 학습 미허용, non-static 학습 허용)
+![result](https://github.com/yanggyu17/DeepLearning_papers/blob/master/images/CNNforSC.png)
 
 ## Results and Discussion
 
