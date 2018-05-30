@@ -44,11 +44,11 @@
 - **CNN-rand** : 성능이 그다지 좋지 않았다.
 - **CNN-static** : 성능이 눈에띄게 증가하였다.
 - **CNN-non-static** : fine-tuning이 조금 더 성능을 개선해준다.
-- **CNN-multichannel** : multichannel을 사용해도 큰 효과는 없다.
+- **CNN-multichannel** : static 채널과 non-static 채널 모두 사용해도 큰 효과는 없다.
 
 - static에선 'good'과 'bad'를 비슷하다고 분류했다. 
 - 하지만 Non-static에서는 fine-tuning 덕분에 'good'이 'nice'와 비슷하다고 분류하였다.
-- 또한 pre-trained 되지 않은 단어가 왔을때 fine-tuning을 한 쪽이 더 의미있는쪽으로 표현되었다.
+- 또한 pre-trained 되지 않은 단어가 왔을때 fine-tuning을 한 쪽이 더 의미있는 쪽으로 표현되었다.
 
 ### Observations
 - Dropout이 regularizer로써 잘 동작하며 2~4%의 성능향상이 있었다.
