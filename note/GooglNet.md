@@ -1,5 +1,5 @@
 # Going Deeper with Convolutions(GoogLeNet)
-논문[[arXiv]](https://arxiv.org/abs/1409.4842)
+논문 [[arXiv]](https://arxiv.org/abs/1409.4842)
 
 ## Motivation
 - DNN(Deep Neural Network)의 성능은 사이즈를 크게함으로써 향상될 수 있다.
@@ -21,3 +21,16 @@
 - 인셉션 모듈이 여러 개 결합되어 네트워크가 깊어질 수록, 필터의 개수가 늘어나고 그에 따라 연산량도 증가한다.
 - 이에 대한 해결책으로 3x3, 5x5 컨볼루션 연산 전에 1x1 컨볼루션 연산을 수행하여 인풋의 차원을 축소시켰다.
 ![inception(b)](https://github.com/yanggyu17/DeepLearning_papers/blob/master/images/inception(b).png)
+
+## GoogLeNet
+- GoogLeNet은 인셉션 모듈을 여러 개 결합하여 만든 모델이다.
+![googlenet](https://github.com/yanggyu17/DeepLearning_papers/blob/master/images/GoogleNet.png)
+- 최초 두 레이어는 전통적인(traditional) 컨볼루션 레이어를 사용했다.
+- 총 9개이 인셉션 모듈을 결합했다.
+- (3b)와 (4e) 인셉션 모듈 다음에 **max-pooling layer**를 넣어 아웃풋 사이즈를 절반으로 축소시킨다.
+- 마지막 softmax 전에 **average pooling layer**를 사용했다.
+- fully connected layer보다 0.6% 성능 향상
+- (4a)와 (4d) 모듈에 auxiliary classifier를 사용했다.
+- 네트워크가 깊어지면서 발생하는 vanishing gradient 문제를 완화시켜준다.
+- 트레이닝 동안에 auxiliary classifier로부터 산출된 - loss는 0.3의 가중치를 곱하여 전체 손실에 합한다.
+- 3x3 reduce와 5x5 reduce는 인셉션 모듈에서 3x3, 5x5 연산을 하기 전 수행하는 1x1 연산의 필터 개수이다.
