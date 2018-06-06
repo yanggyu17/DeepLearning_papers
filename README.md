@@ -11,4 +11,4 @@
 ## NLP
 - [Convolutional Neural Networks for Sentence Classification(2014)](https://github.com/yanggyu17/DeepLearning_papers/blob/master/note/CNN4SentenceClassification.md)
 
-- [Efficient Estimation of Word Representations in Vector Space](https://github.com/yanggyu17/DeepLearning_papers/blob/master/note/VectorSpace.md)
+- [Efficient Estimation of Word Representations in Vector Space(2013)](https://github.com/yanggyu17/DeepLearning_papers/blob/master/note/VectorSpace.md)
