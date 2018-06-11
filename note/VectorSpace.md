@@ -75,4 +75,4 @@
 ![cbow_skipgram](https://github.com/yanggyu17/DeepLearning_papers/blob/master/images/CBOW_SkipGram.png)
 
 ## Results
-
+- 
