@@ -5,6 +5,8 @@
 
 - [GoogleNet(2014)](https://github.com/yanggyu17/DeepLearning_papers/blob/master/note/GooglNet.md)
 
+- [ResNet(2015)](https://github.com/yanggyu17/DeepLearning_papers/blob/master/note/ResNet.md)
+
 ## Deep Learning Method
 - [Dropout(2012)](https://github.com/yanggyu17/DeepLearning_papers/blob/master/note/Dropout.md)
 
