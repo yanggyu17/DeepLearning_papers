@@ -75,4 +75,6 @@
 ![cbow_skipgram](https://github.com/yanggyu17/DeepLearning_papers/blob/master/images/CBOW_SkipGram.png)
 
 ## Results
-- 
+- 이 논문에서 의미론, 구문론적인 언어의 수집 작업의 다양한 모델에서 유도된 단어의 벡터 표현의 성능에 대해 연구했다.
+- 인기있는 모델인 신경망 모델과 비교했을 때 매우 간단한 모델 구조를 사용하여 얻은 단어 벡터가 좋은 성능을 가질 수 있다.
+- 거대한 데이터 셋이 있다면 매우 적은 계산 복잡도로 높은 차원의 단어 벡터를 정확하게 구할 수 있다.
