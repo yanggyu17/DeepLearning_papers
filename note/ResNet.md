@@ -16,8 +16,13 @@ COCO detection, and COCO segmentation 에서 1위 한 모델
     - H(x)가 target function이면 F(x) := H(x) - x처럼 output과 input의 차이인 F(x)를 학습하는 것이 residual representation의 주요 개념이다.
     - (H(x) = x)layer들을 쌓아서 학습시키는 것 보단 F(x)를 0으로 학습시키는 것이 더 용이하다는 뜻
     - H(x) = F(x) + x는 또한 "shortcut connection"으로도 이해가 가능한데, 1개 또는 그 이상의 layer들을 파라미터 없이 바로 skip하여 연결하는 개념이다.
-![resnetRigure](https://github.com/yanggyu17/DeepLearning_papers/blob/master/images/resnet2.png)
+
+![resnetFigure](https://github.com/yanggyu17/DeepLearning_papers/blob/master/images/resnet2.png)
+- 관점을 조금 바꿨을 뿐이지만 많은효과를 가져온다. 최적의 경우가 F(x) = 0 되어야 하기 때문에 학습의 방향이 미리 결정이 되어, 이것이 pre-conditioning 구실을 하게 된다.
+- F(x)가 거의 0이 되는 방향으로 학습을 하게 되면 입력의 작은 움직임을 쉽게 검출할 수 있게 된다. 즉 작은 움직임, 나머지(residual)를 학습한다는 관점에서 residual learning이라고 불리게 된다.  
 
 ## Related Work
 
 ## Deep Residual Learning
+### Residual Learning
+- 
