@@ -12,6 +12,11 @@ COCO detection, and COCO segmentation 에서 1위 한 모델
 ## Introduction
 - **degradation problem** : 망이 깊어지면 vanishing/exploding gradient 때문에 학습이 어려워지는데 이를 degradation problem이라고 한다.
 - depth가 깊은 상태에서 학습을 이미 많이 진행한 경우 weight들의 분포가 균등하지 않고, 역전파시 기울기가 충분하지 않아 학습을 안정적으로 진행할 수 없는 문제가 있다. (overfitting문제가 원인은 아님)
+- **important concepts**
+    - H(x)가 target function이면 F(x) := H(x) - x처럼 output과 input의 차이인 F(x)를 학습하는 것이 residual representation의 주요 개념이다.
+    - (H(x) = x)layer들을 쌓아서 학습시키는 것 보단 F(x)를 0으로 학습시키는 것이 더 용이하다는 뜻
+    - H(x) = F(x) + x는 또한 "shortcut connection"으로도 이해가 가능한데, 1개 또는 그 이상의 layer들을 파라미터 없이 바로 skip하여 연결하는 개념이다.
+![resnetRigure](https://github.com/yanggyu17/DeepLearning_papers/blob/master/images/resnet2.png)
 
 ## Related Work
 
