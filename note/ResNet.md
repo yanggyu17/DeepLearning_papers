@@ -25,4 +25,8 @@ COCO detection, and COCO segmentation 에서 1위 한 모델
 
 ## Deep Residual Learning
 ### Residual Learning
-- 
+- H(x)를 기존의 네트워크라고 할때(x는 input) F(x) := H(x) - x 로 바꿔 F(x) + x를 H(x)에 근사하도록 하는 것(Residual mapping)이 더 쉽다고 가정한다.
+
+### Identity Mapping by Shortcuts
+
+### Network Architecture
