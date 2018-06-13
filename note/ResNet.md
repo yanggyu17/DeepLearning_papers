@@ -11,5 +11,8 @@ COCO detection, and COCO segmentation 에서 1위 한 모델
 
 ## Introduction
 - **degradation problem** : 망이 깊어지면 vanishing/exploding gradient 때문에 학습이 어려워지는데 이를 degradation problem이라고 한다.
-- depth가 깊은 상태에서 학습을 이미 많이 진행한 경우 weight들의 분포가 균등하지 않고, 역전파시 기울기가 충분하지 않아 학습을 안정적으로 진행할 수 없는 문제가 있다. 
-- over-fitting 문제라고 착각할 수도 있겠지만 실제로 그것이 원인은 아니다.
+- depth가 깊은 상태에서 학습을 이미 많이 진행한 경우 weight들의 분포가 균등하지 않고, 역전파시 기울기가 충분하지 않아 학습을 안정적으로 진행할 수 없는 문제가 있다. (overfitting문제가 원인은 아님)
+
+## Related Work
+
+## Deep Residual Learning
