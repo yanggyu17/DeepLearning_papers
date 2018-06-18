@@ -30,3 +30,5 @@ COCO detection, and COCO segmentation 에서 1위 한 모델
 ### Identity Mapping by Shortcuts
 
 ### Network Architecture
+![resnetmodel](https://github.com/yanggyu17/DeepLearning_papers/blob/master/images/resnetmodel.png)
+
